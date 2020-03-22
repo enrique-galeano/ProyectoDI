@@ -6,55 +6,55 @@ a{
 	font-size:14px;
 }
 .navbar-light .navbar-nav .nav-link{
-	color:#fff;
+	color:#fff; /*Color de las palabras del menu*/
 	font-weight:300;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	margin-right: 20px;
 }
 .navbar-light .navbar-nav .nav-link:hover{
-	color:#D80808;
+	color:#1edd8e;/*Hover de las palabras del menu*/
 }
 .navbar-light .navbar-nav .active .nav-link{
 	background-color:transparent;
-	color:#D80808;
+	color:#fff; /*Color de la palabra HOME*/
 }
 .navbar-light .navbar-nav .active .nav-link:hover{
 	background-color:transparent;
-	color:#D80808;
+	color:#1edd8e;/*Hover de la palabra HOME*/
 }
 .btn-menu{
-	background-color: #d80808;
+	background-color: #000;/*No se de que es esto*/
 	border-radius: 0;
 	font-size: 12px;
 }
 
 .btn-menu:hover{
-	background-color: #000000;
-	color: #fff!important;
+	background-color: #000000;/*No se de que es esto*/
+	color: #fff!important;/*No se de que es esto*/
 }
 .navbar-light .navbar-nav .show > .nav-link{
-	color: #fff;
+	color: #fff;/*No se de que es esto*/
 }
 .navbar-light .navbar-nav .show > .nav-link:focus,
 .navbar-light .navbar-nav .show > .nav-link:hover{
-    color: #fff;
+    color: #fff;/*Click de Pages (cuando se presiona Pages se pone verde o de cualquier color que eligamos)*/
     background-color: transparent;
 }
 
 .dropdown-menu{
-	background-color:#212121;
-	border:0;
+	background-color: rgba(9, 9, 9, 0.4);/*Color del dropdown menu de pages*/
+	border:0;/*No se que efecto visual tiene este borde*/
 }
 .dropdown-menu .dropdown-item{
 	font-weight:300!important;
 }
 .navbar-light .navbar-nav .show .dropdown-menu .dropdown-item{
-	color:#fff;
+	color:#fff;/*Color de las palabras que van adentro del dropdown menu*/
 }
 .navbar-light .navbar-nav .show .dropdown-menu .dropdown-item:hover,
 .navbar-light .navbar-nav .show .dropdown-menu .dropdown-itema:focus {
-  color: #D80808;
+  color: rgb(223, 56, 3);/*Hover de las palabras que van adentro del dropdown menu*/
   text-decoration: none;
   background-color: transparent;
 }
@@ -74,15 +74,15 @@ a{
 }
 
 .navbar-light .navbar-toggle:hover .icon-bar {
-    background-color: #8B2588;
+  background-color: #8B2588;/*No se que efecto visual tiene esto*/
 	cursor:pointer;
 }
 .navbar-light .navbar-brand {
-	color:#363636;
+	color:#363636;/*No se que efecto visual tiene esto*/
 	height: auto;
 }
 .navbar-light .navbar-brand:hover {
- 	color:#1F81BF;
+ 	color:#1F81BF;/*No se que efecto visual tiene esto*/
 }
 .navbar-light .navbar-brand img{
 

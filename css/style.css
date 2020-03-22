@@ -2,12 +2,7 @@
 body{
   font-size: 15px;
   font-family: 'Kanit', sans-serif;
-  background-image: url("../img/espacio2.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  padding: 12% 0;
-  text-align: center;
+  background-color: #212235;
 }
 #hero h1{
   color: #ffffff;
@@ -17,6 +12,21 @@ body{
 }
 #hero h3{
   color: #1edd8e;
+}
+
+#info-about-me{
+  padding-top: 10%;
+}
+
+.titulos{
+  font-size: 24px;
+  color: #fff;
+}
+
+.info-texto p{
+  font-size: 19px;
+  color: #fff;
+  text-align: left;
 }
 
 #info-footer{
@@ -42,10 +52,27 @@ body{
 #copy-right a{
   color: #888;
 }
+
 #copy-right a:hover{
   color: #fff;
 }
 
+#map{
+  width: 100%;
+  height: 400px;
+}
+
+.form-control{
+  background-color: #f2f4f8;
+  border-radius: 0;
+  border:0;
+}
+
+
+/*Pruebas nada mas*/
+#contact h1, p, h3{
+  color: #ffffff;
+}
 
 
 /*Animaton rotate
