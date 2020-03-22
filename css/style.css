@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit:300,400,700&display=swap');
+body{
+  font-size: 15px;
+  font-family: 'Kanit', sans-serif;
+  background-image: url("../img/espacio2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 12% 0;
+  text-align: center;
+}
+#hero h1{
+  color: #ffffff;
+}
+#hero h2{
+  color: #8658d2;
+}
+#hero h3{
+  color: #1edd8e;
+}
+
+#info-footer{
+  background-color: rgba(13, 12, 20, 0.64);
+  color: #a2a2a2;
+  padding: 20px 0;
+  font-size: 13px;
+}
+#info-footer h4{
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #dfdfdf;
+  margin-bottom: 25px;
+}
+
+#copy-right{
+  background-color:rgba(13, 12, 20, 0.64);
+  color: #888888;
+  padding: 10px 0;
+  font-size: 12px;
+}
+
+#copy-right a{
+  color: #888;
+}
+#copy-right a:hover{
+  color: #fff;
+}
+
+
+
+/*Animaton rotate
+#loading {
+		-webkit-animation: rotation 2s infinite linear;
+}
+
+
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}*/
