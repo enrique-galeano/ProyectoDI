@@ -9,19 +9,19 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
   <link  href="css/style.css" rel="stylesheet">
 </head>
-<body>
+<body background = "img/espacionuevo.png">
   <header>
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="index.html">
-          <!--Aqui ira mi pixel art de star wars que sere yo -->
+          <img src="img/pequenito.png" alt="Yo jedi" class = "img-fluid">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
@@ -29,12 +29,12 @@
             </li>
             <li class="nav-item">
               <li class="nav-item">
-                <a class="nav-link" href="#">Servicios</a>
+                <a class="nav-link" href="servicios.html">Servicios</a>
               </li>
-              <a class="nav-link " href="#">Portafolio de Proyectos</a>
+              <a class="nav-link " href="portafolio.html">Portafolio de Proyectos</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link btn btn-menu" href="contact.html">Contacto</a>
+            <li class="nav-item active">
+              <a class="nav-link btn btn-menu disable" href="contact.html">Contacto</a>
             </li>
           </ul>
         </div>
@@ -44,7 +44,9 @@
 
   <section id = "contact"  class = "section">
     <div class="container">
-      <h2 class = "titulos">Contactame</h2>
+      <div class="titulos">
+        <h2>Contactame</h2>
+      </div>
       <p>Soy Animador y uso me encanta Adobe After Effects te puedo ayudar, solo contactame por este medio o mis redes sociales :), cualquier
         trabajo sera cobrado por medio de transferencia bancaria y en la moneda del dollar.</p>
         <!--ESTOS ERAN LOS ICONOS-->
@@ -88,7 +90,9 @@
 </div>-->
 <div class="row">
   <article class="col-md-6 col-sm-12 mt-5">
-    <h3>Puedes enviar tu contacto</h3>
+    <div class="titulos">
+      <h3>Puedes enviar tu contacto</h3>
+    </div>
     <form name = "form-contact" id ="form-contact" method="post">
       <div class="form-group">
         <input type="text" name="nombre" id= "nombre" class = "form-control" placeholder="Nombre" required>
@@ -119,7 +123,9 @@
   </article>
 
   <article class="col-md-6 col-sm-12 mt-5">
-    <h3>Our Office</h3>
+    <div class="titulos">
+      <h3>Our Office</h3>
+    </div>
     <div id = "map"></div>
   </article>
 
