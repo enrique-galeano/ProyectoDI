@@ -17,7 +17,7 @@ a{
 }
 .navbar-light .navbar-nav .active .nav-link{
 	background-color:transparent;
-	color:#fff; /*Color de la palabra HOME*/
+	color:#1edd8e /*Color de la palabra HOME*/
 }
 .navbar-light .navbar-nav .active .nav-link:hover{
 	background-color:transparent;
