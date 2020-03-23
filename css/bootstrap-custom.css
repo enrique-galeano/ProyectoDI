@@ -24,14 +24,14 @@ a{
 	color:#1edd8e;/*Hover de la palabra HOME*/
 }
 .btn-menu{
-	background-color: #000;/*No se de que es esto*/
+	/*El cuadro estatico de la palabra contacto que ya no se usa para nada solo
+	tiene el hover en verde claro*/
 	border-radius: 0;
 	font-size: 12px;
 }
 
 .btn-menu:hover{
-	background-color: #000000;/*No se de que es esto*/
-	color: #fff!important;/*No se de que es esto*/
+	color: #1edd8e!important;/*Hover de la palabra contacto*/
 }
 .navbar-light .navbar-nav .show > .nav-link{
 	color: #fff;/*No se de que es esto*/
