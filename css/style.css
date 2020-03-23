@@ -6,7 +6,6 @@ body{
 }
 
 header{
-  background-color: rgba(13, 13, 21, 0.65);
   text-align: center;
   font-size: 24px;
   color: #ffffff;
@@ -15,23 +14,27 @@ header{
 }
 
 #planets-align{
-  padding-top: 20%;
+  margin-top: 20px;
+  padding-top: 300px;
 }
-
 #info-about-me{
-  padding-top: 20%;
+  margin-top: 20px;
+  padding-top: 300px;
 }
 
 #servicios-info{
-  padding-top: 20%;
+  margin-top: 20px;
+  padding-top: 300px;
 }
 
 #contact{
-  padding-top: 20%;
+  margin-top: 20px;
+  padding-top: 300px;
 }
 
 #portafolio-info{
-  padding-top: 20%;
+  margin-top: 20px;
+  padding-top: 300px;
 }
 
 #hero h1{
@@ -136,6 +139,18 @@ header{
 span{
   color: #1edd8e;
 }
+
+
+#hero{
+  background-image: url("../img/espacionuevo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: #ffffff;
+  padding: 6px 0;
+  text-align: center;
+}
+
 
 /*Animaton rotate
 #loading {

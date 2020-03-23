@@ -3,10 +3,11 @@ a{
 }
 .navbar-light {
 	background-color:transparent!important;
-	font-size:14px;
+	font-size:20px;
+	margin-top: 15px;
 }
 .navbar-light .navbar-nav .nav-link{
-	color:#fff; /*Color de las palabras del menu*/
+	color:#8658d2; /*Color de las palabras del menu*/
 	font-weight:300;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -17,7 +18,7 @@ a{
 }
 .navbar-light .navbar-nav .active .nav-link{
 	background-color:transparent;
-	color:#1edd8e /*Color de la palabra HOME*/
+	color:#8658d2; /*Color de la palabra HOME*/
 }
 .navbar-light .navbar-nav .active .nav-link:hover{
 	background-color:transparent;
@@ -27,7 +28,7 @@ a{
 	/*El cuadro estatico de la palabra contacto que ya no se usa para nada solo
 	tiene el hover en verde claro*/
 	border-radius: 0;
-	font-size: 12px;
+	font-size: 20px;
 }
 
 .btn-menu:hover{
